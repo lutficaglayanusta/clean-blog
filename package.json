@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/lutficaglayanusta/clean-blog#readme",
   "dependencies": {
+    "ejs": "^3.1.10",
     "express": "^4.21.0"
   },
   "devDependencies": {
