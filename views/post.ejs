@@ -16,6 +16,8 @@
             <span class="meta">Posted by
               <a href="#">Start Bootstrap</a>
               <%= post.dateCreated  %></span>
+              <a href="/posts/edit/<%= post._id %>" class="btn btn-primary center" style="margin-top: 10px;" href="#">Update &rarr;</a>
+              <a href="/posts/<%= post._id %>?_method=DELETE" onclick="return confirm('ARE YOU SURE')" class="btn btn-danger center" style="margin-top: 10px;" href="#">Delete &rarr;</a>
           </div>
         </div>
       </div>
