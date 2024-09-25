@@ -1,7 +1,7 @@
 const express = require('express');
 const mongoose = require("mongoose")
 const ejs = require('ejs')
-const Post = require('./models/Post');
+
 const methodOverride = require('method-override')
 const postController= require('./controllers/postController')
 const pageController = require('./controllers/pageController')
